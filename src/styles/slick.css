@@ -1,0 +1,40 @@
+.slick-prev:before {
+    color: black !important;
+    height: 5rem;
+}
+
+.slick-next:before {
+    color: black !important;
+    height: 5rem;
+}
+
+.slick-arrow{
+    position: absolute;
+
+}
+.slick-next{
+    right: 1.5rem;
+}
+.slick-prev {
+    left: -.5rem;
+    z-index: 1000;
+}
+.slick-slide{
+padding-inline: .5rem !important;
+display: flex;
+justify-content: center;
+}
+.slick-disabled{
+    display: none !important;
+}
+.slick-initialized {
+    position: relative;
+}
+
+.slick-track{
+    margin-right:0 !important ;
+    margin-left: 0 !important;
+}
+/* .slick-arrow{
+    margin-inline: 3rem;
+} */
